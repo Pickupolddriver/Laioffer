@@ -6,6 +6,10 @@ public class TreeNode {
   TreeNode left;
   TreeNode right;
 
+  public TreeNode(int key) {
+    this.key = key;
+  }
+
   public int getKey() {
     return key;
   }
